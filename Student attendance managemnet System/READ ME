@@ -1,0 +1,48 @@
+Attendance Management System
+This is a simple Attendance Management System implemented in C++ to track students' 
+attendance. The program allows marking attendance for a student, displaying attendance records, and exiting the system.
+
+Features
+Mark Attendance: Mark a student as present by entering their name.
+Display Attendance: View the attendance status of all students (present or absent).
+Sample Data: Comes with sample student data (arya, janvi, and xyz).
+How to Run the Program
+Using an Online Compiler
+You can run the program directly on an online compiler using the link below:
+Run on OnlineGDB
+
+Running Locally
+Copy the code into a file named attendance.cpp.
+Compile the code using a C++ compiler:
+bash
+Copy code
+g++ attendance.cpp -o attendance
+Run the compiled program:
+bash
+Copy code
+./attendance
+Sample Menu
+The program provides the following options:
+
+Mark Attendance: Enter the name of the student to mark them as present.
+Display Attendance: View the attendance status of all students.
+Exit: Exit the program.
+Example Output
+mathematica
+Copy code
+Attendance Management System
+
+1. Mark Attendance
+2. Display Attendance
+3. Exit
+Enter your choice (1-3): 1
+Enter student name: arya
+Attendance marked for arya
+
+1. Mark Attendance
+2. Display Attendance
+3. Exit
+Enter your choice (1-3): 2
+Name: arya, Attendance: Present
+Name: janvi, Attendance: Absent
+Name: xyz, Attendance: Absent
